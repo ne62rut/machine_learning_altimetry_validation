@@ -1,0 +1,25 @@
+name: machine_learning_altimetry_validation
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.6
+  - cartopy
+  - xarray
+  - numpy
+  - scipy       
+  - pandas
+  - netCDF4
+  - matplotlib
+  - seaborn
+  - iris=2.4.0=py36_0
+  - sympy
+  - nb_conda
+  - scikit-learn
+  - pip:
+    - global-land-mask
+  - pip3:
+    - runipy
+
+
