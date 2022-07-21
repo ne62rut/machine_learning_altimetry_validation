@@ -1,6 +1,7 @@
 # machine_learning_altimetry_validation
 
-The project, made available through Jupyter Notebooks, analyses the daily gridded altimetry product (Sea Level Anomalies, SLA) in the North Sea for 2004, available in SEANOE under the name "Daily sea level anomalies from satellite altimetry with Random Forest Regression". 
+The project, made available through Jupyter Notebooks, analyses the daily gridded altimetry product (Sea Level Anomalies, SLA) in the North Sea for 2004, available in SEANOE as:
+Passaro Marcello, Juhl Marie-Christin (2022). Daily sea level anomalies from satellite altimetry with Random Forest Regression. SEANOE. https://doi.org/10.17882/89530 
 
 We compare the daily machine-learning-based SLA with the latest version of the CMEMS Level 4 gridded SLA, reference number: SEALEVEL_GLO_PHY_L4_MY_008_047.
 
