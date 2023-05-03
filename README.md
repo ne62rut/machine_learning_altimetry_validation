@@ -30,3 +30,9 @@ c) Altimetry data from CMEMS. One single dataframe obtained assembling the CMEMS
 5. plot_dailymapsexample.ipynb: Plots of one daily grid on a geographical map, from this study and from CMEMS
 
 6. plot_training_histograms.ipynb: Plotting functions for the histograms of the traning dataset. NOT AVAILABLE using the data in SEANOE.
+
+
+## Additional notebooks:
+gesla_processing.ipynb: This step preceds the 1st relevant notebook. The code takes high-frequency tide gauge records from GESLA 3, averages them as hourly records, select for a specific year and region, smooths them by means of a lowess filter to remove tide contributions and correct them for the Dynamic Atmospheric Correction. 
+The processing is needed to make GESLA dataset comparable to altimetry estimations. The final output of this code can be used in compare_TG_nodac.
+Note that the location and naming of the original GESLA data and of the DAC correction from AVISO are hard coded.
