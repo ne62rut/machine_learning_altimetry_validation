@@ -442,6 +442,7 @@ class GeslaDataset:
                 data = data.resample(resampling).mean()
             if start_date != None:
                 data = data[data.index > start_date]
+                data = data[data.index < start_date+ pd.DateOffset(years=1)]
 
             if return_meta:
                 meta = self.meta.loc[self.meta.filename == filename].iloc[0]
